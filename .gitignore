@@ -349,3 +349,9 @@ healthchecksdb
 MigrationBackup/
 
 src/.svn/
+
+# AI Tools
+.claude/
+.serena/
+*.claude/
+*.serena/
