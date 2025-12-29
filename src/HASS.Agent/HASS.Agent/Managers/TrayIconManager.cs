@@ -1,3 +1,4 @@
+using HASS.Agent.Forms;
 using HASS.Agent.Models.Internal;
 using HASS.Agent.Resources.Localization;
 using Serilog;

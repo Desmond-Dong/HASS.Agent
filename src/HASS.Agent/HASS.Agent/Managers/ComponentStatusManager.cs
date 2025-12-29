@@ -1,3 +1,4 @@
+using HASS.Agent.Forms;
 using HASS.Agent.Shared.Enums;
 using Serilog;
 using Syncfusion.Windows.Forms;

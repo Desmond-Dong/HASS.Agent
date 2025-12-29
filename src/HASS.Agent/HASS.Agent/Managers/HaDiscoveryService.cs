@@ -1,3 +1,4 @@
+using System.Net.Http;
 using System.Net.NetworkInformation;
 using System.Net.Sockets;
 using Serilog;
