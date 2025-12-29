@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿extern alias WV2;
+using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.IO;
 using System.Net.Http;
@@ -18,7 +19,7 @@ using HASS.Agent.Shared.HomeAssistant.Commands;
 using HASS.Agent.Shared.HomeAssistant.Sensors;
 using HASS.Agent.Shared.Models.HomeAssistant;
 using HASS.Agent.Shared.Mqtt;
-using Microsoft.Web.WebView2.Core;
+using WV2::Microsoft.Web.WebView2.Core;
 using Microsoft.Win32;
 using MQTTnet;
 using WK.Libraries.HotkeyListenerNS;

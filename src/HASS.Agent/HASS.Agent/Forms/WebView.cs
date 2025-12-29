@@ -1,4 +1,5 @@
-﻿using System.Diagnostics.CodeAnalysis;
+﻿extern alias WV2;
+using System.Diagnostics.CodeAnalysis;
 using Syncfusion.Windows.Forms;
 using HASS.Agent.Functions;
 using HASS.Agent.Models.Internal;
@@ -7,7 +8,7 @@ using HASS.Agent.Settings;
 using Serilog;
 using System.Runtime.InteropServices;
 using Windows.Web.UI.Interop;
-using Microsoft.Web.WebView2.Core;
+using WV2::Microsoft.Web.WebView2.Core;
 
 namespace HASS.Agent.Forms
 {
