@@ -30,7 +30,7 @@ namespace HASS.Agent.Forms
         {
             this.pnlMain = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
-            this pnlMain.SuspendLayout();
+            this.pnlMain.SuspendLayout();
             this.SuspendLayout();
             //
             // pnlMain
