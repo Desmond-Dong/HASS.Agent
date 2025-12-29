@@ -1144,8 +1144,7 @@
     <value>HASS.Agent更新</value>
   </data>
   <data name="CommandsManager_CustomCommandDescription" xml:space="preserve">
-	  <value>执行自定义命令。这些命令在没有特殊提升的情况下运行。要以提升的方式运行，请创建计划任务，并使用'schtasks /Run /TN "TaskName"'作为执行任务的命令。或者启用“以低完整性运行”，以实现更严格的执行。</value>
-  </data>
+	  <value>执行自定义命令。这些命令在没有特殊提升的情况下运行。要以提升的方式运行，请创建计划任务，并使用'schtasks /Run /TN "TaskName"'作为执行任务的命令。或者启用"以低完整性运行"，以实现更严格的执行。</value>
   </data>
   <data name="CommandsManager_CustomExecutorCommandDescription" xml:space="preserve">
 	  <value>通过配置的自定义执行器执行命令（在配置 -&gt; 外部工具中）。
