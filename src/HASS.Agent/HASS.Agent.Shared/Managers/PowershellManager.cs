@@ -107,6 +107,7 @@ public static class PowershellManager
     /// Executes a Powershell script, logs the output if it fails
     /// </summary>
     /// <param name="script"></param>
+    /// <param name="parameters"></param>
     /// <param name="timeout"></param>
     /// <returns></returns>
     public static bool ExecuteScript(string script, string parameters, TimeSpan timeout) => Execute(script, parameters, true, timeout);

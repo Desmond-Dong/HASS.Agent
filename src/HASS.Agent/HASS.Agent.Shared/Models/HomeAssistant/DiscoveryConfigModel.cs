@@ -170,7 +170,7 @@ namespace HASS.Agent.Shared.Models.HomeAssistant
         /// (Optional) The MQTT topic subscribed to receive availability (online/offline) updates.
         /// </summary>
         /// <value></value>
-        public string Availability_topic { get; set; }
+        public new string Availability_topic { get; set; }
 
         /// <summary>
         /// (Optional) The MQTT topic to set the command
